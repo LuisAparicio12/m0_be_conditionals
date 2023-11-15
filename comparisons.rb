@@ -22,25 +22,32 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
-# this should print: true
+puts "Is number_teachers less than number_students?", number_teachers < number_students
+# this should print: "Is number_teachers less than number_students?" true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-# this should print: false
+puts "Is number_teachers equal to strig_teachers?", number_teachers == string_teachers
+# this should print: "Is number_teachers equal to strig_teachers?" false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
-# this should print: true
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
+# this should print: "Is number_teachers not equal to number_students?" true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-# this should print: true
+puts "Is number_students greater than or equal to 20?", number_students >= 20
+# this should print: "Is number_students greater than or equal to 20?" true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-# this should print: false
+puts "Is number_students greater than or equal to 21?", number_students >= 21
+# this should print: "Is number_students greater than or equal to 21?" false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-# this should print: true
+puts "Is number_students lesst than or equal to 20?", number_students <= 20
+# this should print: "Is number_students lesst than or equal to 20?" true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-# this should print: true
+puts "Is number_students less than or equal to 21?", number_students <= 21
+# this should print: "Is number_students less than or equal to 21?" true
 
 
 #-------------------
@@ -54,21 +61,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
-
+#This line of code is explaining that 4 is less than 9.
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-
+#In this line is saying that 4 is less than books which the equal number for books is 3. The outcome of this line of code will be that is false.
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+#In this line is giving me two factors, and that friends is greater than siblings. The outcome will be true.
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+#
 
 #-------------------
 # PART 3: Logical Operators
